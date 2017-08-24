@@ -1,6 +1,7 @@
 # sigsci-country-block
 Signal Sciences Block Attacking IP Addresses by Country
 
+This script will query the Signal Sciences API to identify attacking IP addresses and if an IP address is sourced from the country you specify it will add that IP to the blacklist. IP lookups are based on the [MaxMind](https://dev.maxmind.com/geoip/geoip2/geolite2/) database.
 # Usage
 
 Export the following environment variables:
