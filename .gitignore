@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+data/*.json
+data/*.mmdb
+data/*/*.txt
