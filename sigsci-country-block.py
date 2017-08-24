@@ -15,7 +15,7 @@ sigsci_bl      = 'data/sigsci-bl.json'
 sigsci_bl_post = 'data/sigsci-bl-post.json'
 BL_MAX         = 1000
 ATTACK_TAGS    = ['XSS', 'SQLI', 'TRAVERSAL', 'CMDEXE', 'USERAGENT', 'BACKDOOR', 'CODEINJECTION', 'RESPONSESPLIT']
-ATTACK_TAGS    = ['NOUA']
+
 if __name__ == '__main__':
     # parse CLI arguments
     parser = argparse.ArgumentParser(description='Signal Sciences Country Block(er).', prefix_chars='--')
