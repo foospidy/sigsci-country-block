@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
             # do time stuff
             now              = datetime.datetime.now()
-            tm               = now - datetime.timedelta(hours=1,minutes=10)
+            tm               = now - datetime.timedelta(minutes=10)
             stm              = tm.strftime("%Y-%m-%d %H:%M:00")
             sigsci.from_time = int(tm.strptime(stm, "%Y-%m-%d %H:%M:00").strftime("%s"))
 
