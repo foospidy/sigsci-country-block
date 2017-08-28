@@ -16,3 +16,4 @@ clean:
 	find . -name "*.pyc" -type f -delete
 	rm modules/SigSci.py
 	rm -rf data/*
+	echo "data directory" > data/readme.txt

@@ -104,3 +104,4 @@ data/*.json
 data/*.mmdb
 data/*/*.txt
 .DS_Store
+modules/SigSci.py
