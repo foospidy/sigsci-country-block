@@ -20,7 +20,7 @@ make build
 make run country=<country-iso-code>
 ```
 
-To run as deamon make sure you have the python dependancies installed, e.g. `pip install --upgrade future requests geoip2`
+To run as deamon make sure you have the python dependencies installed, e.g. `pip install --upgrade future requests geoip2`
 
 ```
 ./sigsci-country-block.py --country <ccountry-iso-code> &
